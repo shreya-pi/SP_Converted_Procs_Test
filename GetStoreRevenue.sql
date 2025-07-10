@@ -2,7 +2,7 @@
 CREATE OR REPLACE PROCEDURE GetStoreRevenue (STORE_ID INT)
 RETURNS TABLE()
 LANGUAGE SQL
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 2,  "patch": "6.0" }, "attributes": {  "component": "transact",  "convertedOn": "07-02-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 2,  "patch": "6.0" }, "attributes": {  "component": "transact",  "convertedOn": "06-27-2025",  "domain": "test" }}'
 EXECUTE AS CALLER
 AS
 $$
